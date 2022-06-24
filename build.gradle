@@ -1,0 +1,4 @@
+apply plugin 'java'
+
+// uncomment the line below if using Eclipse
+// apply plugin 'eclipse'
