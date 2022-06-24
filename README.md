@@ -17,3 +17,10 @@ If the above doesn't work, use:
 chmod +x ./gradlew
 ./gradlew
 
+4) To open project in Eclipse:
+
+4.1) In build.gradle, uncomment out the "apply plugin: 'eclipse'" line.
+
+4.2) Open Eclipse and go to File->Import...->Gradle->Exising Gradle Project, then set the directory as the folder this README is in
+
+4.3) A note on Eclipse, after you add new dependencies, right click your project, go to Gradle -> Refresh Gradle Project. This will ensure that Eclipse will give appropriate syntax highlighting/auto-complete.
